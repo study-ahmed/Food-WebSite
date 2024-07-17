@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Segoe UI';
+    color: white;
+    
+}
+html,body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(28, 9, 3);
+    
+}
+
+/* Navigation design Code */
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(28, 9, 3);
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    
+}
+li{
+    display: block;
+    font:15px 'Segoe UI' ;
+    font-weight: 600;
+}
+li a{
+    padding: 10px 20px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    transition: background-color linear 0.3s;
+    
+}
+li a:hover{
+    background-color: orangered;
+}
+.about{
+    float: right;
+}
+
+/* Banner Design Code */
+
+.banner{
+    width: 100%;
+    height: 10%;
+    border: none;
+    overflow: hidden;
+    background: url(image/Banner.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;   
+}
+
+.banner h1{
+    background-color: rgba(0, 0, 0, 0.744);
+    color: orangered;
+    text-shadow: 0px 0px 10px orangered;
+    font: 150px 'Segoe UI';
+    font-weight: 800;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+
+/* Card Design Code */
+
+main{
+    
+    width: 80%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* border: 5px solid black; */
+    border-radius: 10px;
+    margin-left:10%;
+
+
+}
+
+.card{
+    margin-left: -35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position:relative;
+    top: 10px;
+    left: 50px;
+    width: 220px;
+    height: 340px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur (10px);
+    border-radius:15px ;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 3px rgba(255, 68, 0, 0.492);
+    border: none;
+    transition: all linear 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+div{
+    border: 3px solid  blueviolet;
+    width: 100%;
+    height: 20%;   
+    margin-bottom: 3px;
+
+}
+.img{
+    border-radius: 15px 15px 0px 0px ;
+    border: 3px solid black;
+    border: none;
+    height: 54%;
+}
+.img img{
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.title{
+    height: 10%;
+    border: none;
+}
+.title h1{
+    font: 22px 'Segoe UI' ;
+    font-weight: 700;
+    margin-top: 1%;
+
+}
+
+.rate{
+    height: 5%;
+    border: none;
+}
+.rate h3{
+    margin-top:-3% ;
+    color: yellow;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.des{
+    height: 5%;
+    border: none;
+}
+.des p{
+    position: relative;
+    margin-top:3%;
+    font:12px 'Segoe UI';
+    font-weight: 500;
+}
+.price{
+    height: 5%;
+    border: none;
+}
+.price span{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    font: 12px 'Segoe UI';
+    font-weight: 600;
+    padding: 1px 15px;
+    border-radius: 6px;
+    bottom: -9px;
+}
+.btn{
+    height: 10%;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    
+}
+.btn button{
+    margin:15px 0px  ;
+    position: relative;
+    height: 100%;
+    width: 70%;
+    background-color: orangered;
+    outline: none;
+    border: 2px solid rgb(111, 37, 10);
+    font:20px 'Segoe UI';
+    border-radius:20px ;
+    border: 2px solid black;
+    transition: all linear 0.3s;
+
+
+}
+
+.btn button:hover{
+    background: black;
+    color: orangered;
+    box-shadow: 0px 0px 20px 5px rgb(138, 42, 7);
+    transform: scale(1.1);
+}
+
+
+/* Footer Design Code */
+
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(51, 18, 8);
+    position: absolute;
+    margin-top: 50px;
+}
+footer p {
+    color: orange;
+    padding-top: 8px;
+    font: 15px 'Segoe UI';
+    font-weight: 500;
+}
